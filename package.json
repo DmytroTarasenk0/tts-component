@@ -28,7 +28,7 @@
       "import": "./dist/text-to-speech.es.js",
       "require": "./dist/text-to-speech.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/text-to-speech-component.css": "./dist/text-to-speech-component.css"
   },
   "files": [
     "dist"
