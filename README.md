@@ -18,3 +18,27 @@ A simple, lightweight React component that provides a "Text to Speech" interface
 ```bash
 npm install text-to-speech-component
 ```
+
+## Usage
+
+1. Import the component.
+2. **Import the CSS styles** (Required for the layout to look right).
+3. Render it.
+
+```jsx
+import React from "react";
+import { TextToSpeech } from "text-to-speech-component";
+
+// Essential: Import the styles.
+import "text-to-speech-component/dist/text-to-speech-component.css";
+
+function App() {
+  return (
+    <div className="App">
+      <TextToSpeech />
+    </div>
+  );
+}
+
+export default App;
+```
