@@ -1,7 +1,7 @@
 {
   "name": "text-to-speech-component",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A simple, lightweight React component for Text-to-Speech.",
   "type": "module",
   "keywords": [
