@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DmytroTarasenk0/tts-component.git"
+    "url": "git+https://github.com/DmytroTarasenk0/tts-component.git"
   },
   "main": "./dist/text-to-speech.umd.js",
   "module": "./dist/text-to-speech.es.js",
