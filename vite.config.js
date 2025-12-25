@@ -11,11 +11,13 @@ export default defineConfig({
       fileName: (format) => `text-to-speech.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: ["react", "react-dom", "mammoth", "react/jsx-runtime"],
       output: {
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
+          mammoth: "mammoth",
+          "react/jsx-runtime": "jsxRuntime",
         },
       },
     },
